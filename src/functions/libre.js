@@ -78,7 +78,7 @@ const transferLibreView = async function (device, token, glucoseEntries, foodEnt
     Domain: "Libreview"
   };
 
-  const response = await axios.default.post('https://api-eu.libreview.io/lsl/api/measurements', data, {
+  const response = await axios.default.post('https://api.libreview.ru/lsl/api/measurements', data, {
     headers: {
       'Content-Type': 'application/json'
     }
